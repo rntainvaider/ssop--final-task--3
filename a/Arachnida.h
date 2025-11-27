@@ -1,7 +1,8 @@
 #pragma once
-#include "Animal.h"
+#include "Insecta.h"
 
-class Arachnida : public Animal
+class Arachnida : public Insecta
 {
+public:
+	Arachnida(std::string name, int age, double massa);
 };
-

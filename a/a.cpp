@@ -8,12 +8,7 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-
-    Mammalia* lion = new Mammalia("Симба", 5, 190.0);
-
-    std::cout << "Лев: " << lion->getName() << ", " << lion->getAge() << " лет" << std::endl;
-
-    delete lion;
+    
 }
 
 
